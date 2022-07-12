@@ -1,12 +1,16 @@
 import React from 'react';
 import logo from './img/logo.png';
 import pic4 from './img/pic4.jpg';
+import { FaRegLightbulb } from "react-icons/fa";
+import { FaPenFancy } from "react-icons/fa";
+import { FaFolder} from "react-icons/fa";
+import { FaRegStickyNote } from "react-icons/fa";
 
 
 
 
 class Homepage extends React.Component {
-    render() {
+    render(props) {
         return (
             <>
                 <nav id="navbar" class="navbar navbar-expand-lg d-flex justify-content-center align-items-center ">
@@ -56,25 +60,25 @@ class Homepage extends React.Component {
                                         <div class="cards row justify-content-between">
                                             <div class="col-3">
                                                 <div id="headingOne" class="card" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    <i class="card-icon bi bi-lightbulb"></i>
+                                                <FaRegLightbulb  className="icons" />
                                                     <p class="subtitles">Business <br /> Development</p>
                                                 </div>
                                             </div>
                                             <div class="col-3">
                                                 <div id="headingTwo" class="card collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                    <i class="card-icon bi bi-palette2"></i>
+                                                   <FaPenFancy className='icons' />
                                                     <p class="subtitles">Graphic <br /> Design</p>
                                                 </div>
                                             </div>
                                             <div class="col-3">
                                                 <div id="headingThree" class="card collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                    <i class="card-icon bi bi-diagram-3"></i>
+                                                    <FaRegStickyNote  className='icons'/>
                                                     <p class="subtitles">Project <br /> Management</p>
                                                 </div>
                                             </div>
                                             <div class="col-3">
                                                 <div id="headingThree" class="card collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                                                    <i class="card-icon bi bi-chat-dots"></i>
+                                                    < FaFolder className='icons'/>
                                                     <p class="subtitles">Marketing &amp; <br /> Study</p>
                                                 </div>
                                             </div>

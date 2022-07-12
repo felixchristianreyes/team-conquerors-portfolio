@@ -297,6 +297,11 @@ hr {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
+/* icons */
+.icons{
+  height: 250px;
+  width: 100px;
+}
 
 @-webkit-keyframes fade {
   from {
