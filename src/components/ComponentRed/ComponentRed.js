@@ -1,4 +1,4 @@
-import './ComponentRed.css';
+
 import React,{ Component } from 'react';
 
 class ComponentRed extends Component{
@@ -35,7 +35,7 @@ class ComponentRed extends Component{
                                 libero aliquam. Maecenas at accumsan turpis, eget egestas nulla</p>
                         </div>
                         <div class="col-6">
-                        <img src="team_img.jpg" />
+                        <img src="https://media.istockphoto.com/photos/symbol-of-teamwork-cooperation-and-unity-picture-id1092744152?k=20&m=1092744152&s=612x612&w=0&h=pdsHGkuwYujk2V1e4eO685f-6aSQXATMgME2vxzgW8U=" width="100%" />
                         </div>
                     </div>
                 </div>
