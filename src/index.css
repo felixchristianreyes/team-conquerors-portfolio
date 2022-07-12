@@ -722,98 +722,6 @@ hr {
   color: #ff8f68;
 }
 
-/* ComponentRed CSS */
-.headerR{
-  padding-top: 90px;
-  text-align: center;
-  height: 330px;
-  width: 1122px;
-  background-color: #FF8F68;
-}
-.portfolioText{
-  font-size: 46px;
-  font-weight: bold;
-  margin-right: 22px ;
-  color: #4A4937;
-
-}
-.headerR button{
-  background-color: transparent;
-  color: #4A4937;
-  font-size: 14px;
-  border-color: none;
-  margin: 0 0 26px 26px ;
-  height: 57px;
-  width: 128px;
-  border-radius: 0;
-}
-.headerR button:hover {
-  border-color: #4A4937;
-}
-.contentR1{
-  height: 683px;
-  width: 1122px;
-  background-color: #F0EFD0;
-  position: relative;
-
-}
-.contentR1 .contentR1Main{
-  background-color: #D9D9D9;
-  width: 852px;
-  height: 644px;
-  position: absolute;
-  top: -97px;
-  Left: 233px;
-  margin: 0;
-  padding: 0;
-}
-.contentR1 button{
-  bottom: 0;
-  background-color: #FF8F68;
-  color: #4A4937;
-  height: 57px;
-  width: 200px;
-  border-radius: 0;
-  margin: 0;
-  position: absolute;
-  top: 90%;
-  left: 40%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-.contentR2{
-  height: 580px;
-  width: 1122px;
-  background-color: #F0EFD0;
-  padding: 0;
-}
-.contentText, .contentText2{
-  font-size: 46px;
-  font-weight: bold;
-  color: #4A4937;
-}
-.contentText2{
-  color: #FF8F68 !important;
-}
-.contentR2 .container{
-  margin: 100px 233px 100px 233px;
-  width: 852px;
-  height: 394px;
-}
-.contentR2 .container .col{
-  margin: 0;
-}
-.contentR2 .container img{
-  width: 410px;
-  height: 394px;
-}
-.contentR2 p{
-  margin-top: 20px;
-  color: #4A4937;
-  font-size: 13px;
-  line-height: 2;
-}
-
 /* Responsive changes */
 @media (max-width: 1400px) {
   h2 {
@@ -865,15 +773,6 @@ hr {
     font-size: 20px;
   }
 
-  .contentR1 .contentR1Main{
-    Left: 77px;
-  }
-
-  .contentR2 .container{
-    margin: 100px 77px 100px 77px;
-    width: 852px;
-    height: 394px;
-  }
 }
 
 @media (max-width: 990px) {
@@ -941,40 +840,7 @@ hr {
     width: 90px;
     height: 90px;
   }
-  .headerR button{
-    margin: 0 0 18px 0  ;
-    height: 57px;
-    width: 100px;
-    border-radius: 0;
-    padding: 0;
-}
-.contentR1 .contentR1Main{
-    width: 600px;
-    height: 415px;
-    position: absolute;
-    top: -97px;
-    Left: 60px;
-    margin: 0;
-    padding: 0;
-}
-.contentR1{
-    height: 533px;
-}
-.contentR1 button{
-    top: 80%;
-    left: 35%;
-}
-.contentR2{
-    margin: 0 10% 0 10%;
-}
-.contentR2 .container{
-    margin: 70px 0px 70px 0px;
-    width: 852px;
-    height: 394px;
-}
-.contentR2 p{
-    line-height: 1.7;
-}
+
 }
 
 @media (max-width: 768px) {
@@ -1032,40 +898,7 @@ hr {
     width: 90px;
     height: 90px;
   }
-  .headerR{
-    display: flex;
 
-}
-.headerR button{
-    margin: 0 0 12px 0  ;
-    height: 57px;
-    width: 100px;
-    border-radius: 0;
-    padding: 0;
-}
-.contentR1 .contentR1Main{
-    width: 100%;
-    height: 415px;
-    top: -97px;
-    Left: 0;
-    margin: 0;
-    padding: 0;
-}
-.contentR1 button{
-    top: 80%;
-    left: 27%;
-}
-.contentR2{
-    margin: 0 5% 0 5%;
-}
-.contentR2 .container{
-    margin: 70px 0px 70px 0px;
-    width: 852px;
-    height: 394px;
-}
-.contentR2 p{
-    line-height: 1.3;
-}
 }
 
 @media (max-width: 576px) {
@@ -1144,40 +977,7 @@ hr {
     width: 70px;
     height: 70px;
   }
-  .headerR{
-    display: flex;
 
-}
-.headerR button{
-    margin: 0 0 12px 0  ;
-    height: 57px;
-    width: 100px;
-    border-radius: 0;
-    padding: 0;
-}
-.contentR1 .contentR1Main{
-    width: 100%;
-    height: 415px;
-    top: -97px;
-    Left: 0;
-    margin: 0;
-    padding: 0;
-}
-.contentR1 button{
-    top: 80%;
-    left: 27%;
-}
-.contentR2{
-    margin: 0 5% 0 5%;
-}
-.contentR2 .container{
-    margin: 70px 0px 70px 0px;
-    width: 852px;
-    height: 394px;
-}
-.contentR2 p{
-    line-height: 1.3;
-}
 
 }
 
