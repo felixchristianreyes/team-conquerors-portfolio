@@ -85,6 +85,8 @@
 .contentR2 p{
     margin-top: 20px;
     color: #4A4937;
+    font-size: 13px!important;
+    line-height: 2;
 }
   @media (max-width: 1400px) {
 
