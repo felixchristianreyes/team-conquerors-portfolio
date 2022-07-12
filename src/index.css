@@ -15,7 +15,7 @@ body {
   font-family: "Lato", sans-serif;
   width: 100%;
   font-size: 25px;
-  background-color: #f0efd0;
+  background-color: #f0efd0 !important;
   color: #4a4937;
 }
 
