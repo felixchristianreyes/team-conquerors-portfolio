@@ -39,39 +39,36 @@ const Contact = () => (
                             <div class="col-12 col-lg-4">
                                 <p>Social media</p>
                                 <p class="warning">
-                                    <a href="https://www.instagram.com/" target="_blank">
+                                    <a href="https://www.instagram.com/" target="#">
                                         <i class="bi bi-instagram"></i>
                                     </a>
-                                    <a href="https://www.facebook.com/" target="_blank">
+                                    <a href="https://www.facebook.com/" target="#">
                                         <i class="bi bi-facebook"></i>
                                     </a>
-                                    <a href="https://twitter.com/" target="_blank">
+                                    <a href="https://twitter.com/" target="#">
                                         <i class="bi bi-twitter"></i>
                                     </a>
-                                    <a href="https://linkedin.com/" target="_blank">
+                                    <a href="https://linkedin.com/" target="#">
                                         <i class="bi bi-linkedin"></i>
                                     </a>
                                 </p>
                             </div>
                             <div class="col-12 col-lg-4 mt-5 mt-md-0">
-                                <p>Contact me via e-mail</p>
-                                <a href="mailto:example@example.com" class="warning">example@example.com</a>
+                                <p>Contact us via e-mail</p>
+                                <a href="mailto:example@example.com" class="warning">kodego_cqrs@testmail.com</a>
                             </div>
                             <div class="col-12 col-lg-4 mt-5 mt-md-0">
-                                <p>My phone</p>
-                                <a href="tel:+00-000-00-00" class="warning">+00 000 00 00</a>
+                                <p>Our Phone #:</p>
+                                <a href="github.com" class="warning">+639 123 321 231</a>
                             </div>
                         </div>
                         <div class="footer d-none d-md-block">
                             <div class="row justify-content-start align-items-end">
-                                <div class="col-3">
-                                    <img src="img/icons/firmbee.svg" alt="firmbee" />
-                                </div>
-                                <div class="col-9">
+                                <div class="col-12">
                                     <span>© 2022-23 Firmbee. Design with by <a
                                             href="https://firmbee.com/solutions/free-invoicing-app-billing-software"
                                             title="Firmbee - Online Remote working app for collaboration & task management"
-                                            target="_blank">Firmbee</a></span>
+                                            target="#">Firmbee</a></span>
                                 </div>
                             </div>
                         </div>
