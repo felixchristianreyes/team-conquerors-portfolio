@@ -89,7 +89,9 @@ hr {
   -webkit-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
 }
-
+.main-button{
+  width: 500px !important;
+}
 .main-button:hover {
   background-color: #4a4937;
   border: none;
@@ -225,12 +227,7 @@ hr {
   background-color: #f0efd0;
 }
 
-/* First section */
-.frontpage {
-  height: 1200px;
-  /* Indicators for slides */
-  /* Scroll text */
-}
+
 
 .frontpage .left {
   padding-left: 29px;
@@ -251,9 +248,9 @@ hr {
 }
 
 .frontpage .header .header-text {
-  position: relative;
-  width: 800px;
-  height: 380px;
+
+  width: 100vw;
+  height: 60vh;
   padding-top: 30px;
   background: #f0efd0;
   z-index: 2;
