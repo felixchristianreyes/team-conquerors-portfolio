@@ -259,6 +259,7 @@ hr {
   z-index: 2;
 }
 
+
 .frontpage .buttons {
   z-index: 1;
 }
@@ -685,6 +686,9 @@ hr {
 .contact .footer span {
   font-size: 18px;
 }
+.h1,h1{
+  font-size: 8rem !important;
+}
 
 .contact .map {
   margin-top: 2px;
@@ -787,6 +791,7 @@ hr {
     height: 380px;
     margin-bottom: 20px;
   }
+ 
   .frontpage .buttons {
     margin-top: 300px;
   }
