@@ -1,4 +1,4 @@
-
+import './ComponentRed.css';
 import React,{ Component } from 'react';
 
 class ComponentRed extends Component{
