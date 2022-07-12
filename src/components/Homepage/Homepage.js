@@ -70,7 +70,7 @@ class Homepage extends React.Component{
                             </div>
                         </div>
                     </div>
-                    {/* <div className="col-12 col-lg-8">
+                    <div className="col-12 col-lg-8">
                         <div className="gallery">
                             <div className="slide fade"  style={{display:'block'}}>
                                 <img src={pic4} alt="woman" />
@@ -81,7 +81,7 @@ class Homepage extends React.Component{
                                 <a className="arrow-left" onclick="plusSlides(-1)"><i className="bi bi-arrow-left"></i></a>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </header>
         </div>
