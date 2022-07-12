@@ -15,7 +15,7 @@
 .headerR button{
     background-color: transparent;
     color: #4A4937;
-    font-size: 14px;
+    font-size: 20px;
     border-color: none;
     margin: 0 0 26px 26px ;
     height: 57px;
@@ -43,7 +43,7 @@
     padding: 0;
 }
 .contentR1 button{
-    bottom: 0;
+    font-size: 20px;
     background-color: #FF8F68;
     color: #4A4937;
     height: 57px;
@@ -85,8 +85,8 @@
 .contentR2 p{
     margin-top: 20px;
     color: #4A4937;
-    font-size: 13px!important;
-    line-height: 2;
+    font-size: 20px !important;
+    line-height: 1.2;
 }
   @media (max-width: 1400px) {
 
@@ -137,7 +137,7 @@
         height: 394px;
     }
     .contentR2 p{
-        line-height: 1.7;
+        line-height: 1;
     }
 
     }
@@ -175,7 +175,7 @@
         height: 394px;
     }
     .contentR2 p{
-        line-height: 1.3;
+        line-height: 1;
     }
     
 }
@@ -212,6 +212,6 @@
         height: 394px;
     }
     .contentR2 p{
-        line-height: 1.3;
+        line-height: 1;
     }
 }
