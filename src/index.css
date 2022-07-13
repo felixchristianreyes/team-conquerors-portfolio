@@ -772,6 +772,7 @@ hr {
     height: 86px;
     font-size: 20px;
   }
+
 }
 
 @media (max-width: 990px) {
@@ -839,6 +840,7 @@ hr {
     width: 90px;
     height: 90px;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -896,6 +898,7 @@ hr {
     width: 90px;
     height: 90px;
   }
+
 }
 
 @media (max-width: 576px) {
@@ -974,5 +977,7 @@ hr {
     width: 70px;
     height: 70px;
   }
+
+
 }
 

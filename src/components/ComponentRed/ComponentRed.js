@@ -31,11 +31,10 @@ class ComponentRed extends Component{
                                 <br />
                                 <br />
                                 Phasellus sed orci ultrices, viverra elit in, luctus nunc. Suspendisse placerat felis id ex hendrerit laoreet. 
-                                Nulla facilisi. Proin ut dui quam. Cras ultricies mollis nunc. Proin varius ante blandit ligula elementum, id varius 
-                                libero aliquam. Maecenas at accumsan turpis, eget egestas nulla</p>
+                                Nulla facilisi.</p>
                         </div>
                         <div class="col-6">
-                        <img src="team_img.jpg" />
+                        <img src="https://media.istockphoto.com/photos/symbol-of-teamwork-cooperation-and-unity-picture-id1092744152?k=20&m=1092744152&s=612x612&w=0&h=pdsHGkuwYujk2V1e4eO685f-6aSQXATMgME2vxzgW8U=" width="100%" />
                         </div>
                     </div>
                 </div>

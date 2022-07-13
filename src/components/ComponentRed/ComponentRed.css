@@ -15,7 +15,7 @@
 .headerR button{
     background-color: transparent;
     color: #4A4937;
-    font-size: 14px;
+    font-size: 20px;
     border-color: none;
     margin: 0 0 26px 26px ;
     height: 57px;
@@ -43,7 +43,7 @@
     padding: 0;
 }
 .contentR1 button{
-    bottom: 0;
+    font-size: 20px;
     background-color: #FF8F68;
     color: #4A4937;
     height: 57px;
@@ -85,6 +85,133 @@
 .contentR2 p{
     margin-top: 20px;
     color: #4A4937;
-    font-size: 13px;
-    line-height: 2;
+    font-size: 20px !important;
+    line-height: 1.2;
+}
+  @media (max-width: 1400px) {
+
+  }
+  @media (max-width: 1200px) {
+    
+  .contentR1 .contentR1Main{
+    Left: 77px;
+  }
+
+  .contentR2 .container{
+    margin: 100px 77px 100px 77px;
+    width: 852px;
+    height: 394px;
+  }
+}
+@media (max-width: 990px) {
+    
+  .headerR button{
+    margin: 0 0 18px 0  ;
+    height: 57px;
+    width: 100px;
+    border-radius: 0;
+    padding: 0;
+    }
+    .contentR1 .contentR1Main{
+        width: 600px;
+        height: 415px;
+        position: absolute;
+        top: -97px;
+        Left: 60px;
+        margin: 0;
+        padding: 0;
+    }
+    .contentR1{
+        height: 533px;
+    }
+    .contentR1 button{
+        top: 80%;
+        left: 35%;
+    }
+    .contentR2{
+        margin: 0 10% 0 10%;
+    }
+    .contentR2 .container{
+        margin: 70px 0px 70px 0px;
+        width: 852px;
+        height: 394px;
+    }
+    .contentR2 p{
+        line-height: 1;
+    }
+
+    }
+@media (max-width: 768px) {
+    
+  .headerR{
+    display: flex;
+
+    }
+    .headerR button{
+        margin: 0 0 12px 0  ;
+        height: 57px;
+        width: 100px;
+        border-radius: 0;
+        padding: 0;
+    }
+    .contentR1 .contentR1Main{
+        width: 100%;
+        height: 415px;
+        top: -97px;
+        Left: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .contentR1 button{
+        top: 80%;
+        left: 27%;
+    }
+    .contentR2{
+        margin: 0 5% 0 5%;
+    }
+    .contentR2 .container{
+        margin: 70px 0px 70px 0px;
+        width: 852px;
+        height: 394px;
+    }
+    .contentR2 p{
+        line-height: 1;
+    }
+    
+}
+@media (max-width: 576px) {
+
+  .headerR{
+    display: flex;
+    }
+    .headerR button{
+        margin: 0 0 12px 0  ;
+        height: 57px;
+        width: 100px;
+        border-radius: 0;
+        padding: 0;
+    }
+    .contentR1 .contentR1Main{
+        width: 100%;
+        height: 415px;
+        top: -97px;
+        Left: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .contentR1 button{
+        top: 80%;
+        left: 27%;
+    }
+    .contentR2{
+        margin: 0 5% 0 5%;
+    }
+    .contentR2 .container{
+        margin: 70px 0px 70px 0px;
+        width: 852px;
+        height: 394px;
+    }
+    .contentR2 p{
+        line-height: 1;
+    }
 }
